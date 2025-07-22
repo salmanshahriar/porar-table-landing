@@ -10,28 +10,81 @@ export default function Component() {
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-16 px-4 sm:px-6 lg:px-8">
       <main className="max-w-2xl mx-auto text-left space-y-4 sm:space-y-6 flex-grow">
-        <div className="flex justify-start mb-8">
-          <Triangle className="h-8 w-8 sm:h-10 sm:w-10 text-white" />
+        <div className="flex ">
+        <img
+          src="/team.jpeg"
+          alt="Porar Table Logo"
+          
+          style={{ width: "250px", height: "auto" }}
+        />
+        
+        
         </div>
 
-        <p className="text-base sm:text-lg leading-relaxed">Hi.</p>
-        <p className="text-base sm:text-lg leading-relaxed">Glad to see you here.</p>
+        <p className="text-base sm:text-lg leading-relaxed">hey,</p>
+        <p className="text-base sm:text-lg leading-relaxed">what's up dude!</p>
+        <p className="text-base sm:text-lg leading-relaxed">who told you about us? kuddus?</p>
+        <p className="text-base sm:text-lg leading-relaxed">
+          scince you’re here, let me tell you a bit about Porar Table and how we started.
+        </p>
+        <p className="text-base sm:text-lg leading-relaxed">
+          So couple of months ago, we participated in a hackathon and we build a space where students can take notes, drag in resources, plan their study sessions, and collaborate live
+          with friends or teachers. Think of it like a smart, infinite desk that built for learners, accessible from
+          anywhere. it's like figJam but for studing.
+        </p>
 
         <p className="text-base sm:text-lg leading-relaxed">
-          We’re building Porar Table — a digital study table, right inside your browser.
+          We are calling it Porar Table.
         </p>
         <p className="text-base sm:text-lg leading-relaxed">
-          It’s a space where students can take notes, drag in resources, plan their study sessions, and collaborate live
-          with friends or teachers. Think of it like a smart, infinite desk that built for learners, accessible from
-          anywhere.
+          with a goal of removing all the distraction while you are studing, whether you are alone or with your friends. 
         </p>
         <p className="text-base sm:text-lg leading-relaxed">
-          No installs. No distractions. Just open and start learning.
+          and guess what? we stood third place in that hackathon! which gave us enough motivation to keep building it.
         </p>
+        
         <p className="text-base sm:text-lg leading-relaxed">
-          We’re kicking things off with a 100-day reel challenge starting launch day — sharing our progress, feature
-          drops, and behind-the-scenes stories.
+          We’re kicking things off with a 100-day reel challenge starting soon — sharing our progress, feature
+          drops, and behind-the-scenes stories. you can watch it here,
         </p>
+        <ul className="list-disc list-inside space-y-1 sm:space-y-2 text-base sm:text-lg leading-relaxed">
+          <li>
+            <Link href="https://www.linkedin.com/company/porartablehq" className="underline" target="_blank">
+              LinkedIn
+            </Link>
+            
+          </li>
+          <li>
+            <Link href="https://x.com/PorarTableHQ" className="underline" target="_blank">
+              Twitter (X)
+            </Link>
+            
+          </li>
+          <li>
+            <Link href="https://www.instagram.com/porartablehq" className="underline" target="_blank">
+              Instagram
+            </Link>
+            
+          </li>
+          <li>
+            <Link href="https://www.facebook.com/PorarTableHQ" className="underline" target="_blank">
+              Facebook
+            </Link>
+            
+          </li>
+          <li>
+            <Link href="https://youtube.com/@porartablehq" className="underline" target="_blank">
+              YouTube
+            </Link>
+            
+          </li>
+          <li>
+            <Link href="https://www.tiktok.com/@porartablehq" className="underline" target="_blank">
+              TikTok
+            </Link>
+            
+          </li>
+        </ul>
         <p className="text-base sm:text-lg leading-relaxed">
           This isn’t a big, flashy launch. It’s more like:
           <br />
@@ -46,85 +99,52 @@ export default function Component() {
           <li>Early access — and we’re actively listening to real users to shape what comes next</li>
         </ul>
 
-        <p className="text-base sm:text-lg leading-relaxed pt-2 sm:pt-4">Stay connected with us (Socials)</p>
+        <p className="text-base sm:text-lg leading-relaxed pt-2 sm:pt-4">We Can join our Community here,</p>
+        
         <ul className="list-disc list-inside space-y-1 sm:space-y-2 text-base sm:text-lg leading-relaxed">
-          <li>
-            <Link href="https://www.linkedin.com/company/porartablehq" className="underline" target="_blank">
-              LinkedIn
-            </Link>
-            : https://www.linkedin.com/company/porartablehq
-          </li>
-          <li>
-            <Link href="https://x.com/PorarTableHQ" className="underline" target="_blank">
-              Twitter (X)
-            </Link>
-            : https://x.com/PorarTableHQ
-          </li>
-          <li>
-            <Link href="https://www.instagram.com/porartablehq" className="underline" target="_blank">
-              Instagram
-            </Link>
-            : https://www.instagram.com/porartablehq
-          </li>
-          <li>
-            <Link href="https://www.facebook.com/PorarTableHQ" className="underline" target="_blank">
-              Facebook
-            </Link>
-            : https://www.facebook.com/PorarTableHQ
-          </li>
-          <li>
-            <Link href="https://youtube.com/@porartablehq" className="underline" target="_blank">
-              YouTube
-            </Link>
-            : https://youtube.com/@porartablehq
-          </li>
-          <li>
-            <Link href="https://www.tiktok.com/@porartablehq" className="underline" target="_blank">
-              TikTok
-            </Link>
-            : https://www.tiktok.com/@porartablehq
-          </li>
-          <li>
-            <Link href="https://www.pinterest.com/PorarTableHQ" className="underline" target="_blank">
-              Pinterest
-            </Link>
-            : https://www.pinterest.com/PorarTableHQ
-          </li>
           <li>
             <Link href="https://discord.gg/Ms5CxzebjT" className="underline" target="_blank">
               Discord
             </Link>
-            : https://discord.gg/Ms5CxzebjT
+            
           </li>
           <li>
             <Link href="https://www.reddit.com/r/PorarTable/" className="underline" target="_blank">
               Reddit
             </Link>
-            : https://www.reddit.com/r/PorarTable/
+            
+          </li>
+          <li>
+            <Link href="https://www.pinterest.com/PorarTableHQ" className="underline" target="_blank">
+              also Pinterest cause why not
+            </Link>
+            
           </li>
         </ul>
 
-        <p className="text-base sm:text-lg leading-relaxed pt-2 sm:pt-4">How people actually use Porar Table</p>
-        <p className="text-base sm:text-lg leading-relaxed">
-          <strong className="font-bold">Use Case 1: Night-before-exam panic</strong>
-          <br />
-          “Bro, it’s 2 AM. Please send me your Porar Table notes. I swear I’ll actually study this time.”
-        </p>
-        <p className="text-base sm:text-lg leading-relaxed">
-          <strong className="font-bold">Use Case 2: Teachers going full digital</strong>
-          <br />
-          “This is today’s class material. I’ve already shared it in the Porar Table group. Don’t say I didn’t.”
-        </p>
-        <p className="text-base sm:text-lg leading-relaxed">
-          <strong className="font-bold">Use Case 3: Friend saves your GPA</strong>
-          <br />
-          “Dude, I don’t get this chapter at all.”
-          <br />
-          “No stress. I’ve got full notes on Porar Table. Sending now. You owe me.”
-        </p>
+        
+        <div className="mt-8">
+          <p className="text-base sm:text-lg leading-relaxed mb-4">
+            If you want to be the first to know when we launch, drop your email below:
+          </p>
+          <form className="flex flex-col sm:flex-row items-center gap-2">
+            <input
+              type="email"
+              placeholder="might send you love letters;)"
+              className="px-20 py-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-white-500"
+              required
+            />
+            <button
+              type="submit"
+              className="px-4 py-2 rounded bg-white text-black font-semibold hover:bg-gray-200 transition"
+            >
+              Notify Me
+            </button>
+          </form>
+        </div>
 
-        <p className="text-base sm:text-lg leading-relaxed pt-4">See you inside.</p>
-        <p className="text-base sm:text-lg leading-relaxed">Salman, Sajid, Shagato & Towsif</p>
+      <p className="text-base sm:text-lg leading-relaxed pt-4">See you at your porar table haha,</p>
+      <p className="text-base sm:text-lg leading-relaxed">Salman, Sajid, Shagato & Towsif</p>
       </main>
       <Footer />
     </div>
