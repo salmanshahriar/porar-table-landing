@@ -9,7 +9,7 @@ export function EmailForm() {
     if (!email) return
 
     try {
-      await fetch("https://sajidude.app.n8n.cloud/webhook-test/5bdb349a-b870-4fcd-ab55-8cbdc034f23a", {
+      await fetch("https://n8n.salmanshahriar.com/webhook/5bdb349a-b870-4fcd-ab55-8cbdc034f23a", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
