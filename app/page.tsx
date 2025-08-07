@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 import { porarTableMetadata } from "@/lib/seo-config"
+import { EmailForm } from "@/components/EmailForm"
 
 export const metadata: Metadata = porarTableMetadata
 
@@ -127,20 +128,7 @@ export default function Component() {
           <p className="text-base sm:text-lg leading-relaxed mb-4">
             If you want to be the first to know when we launch, drop your email below:
           </p>
-          <form className="flex flex-col sm:flex-row items-center gap-2">
-            <input
-              type="email"
-              placeholder="might send you love letters;)"
-              className="px-20 py-2 rounded bg-gray-800 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-white-500"
-              required
-            />
-            <button
-              type="submit"
-              className="px-4 py-2 rounded bg-white text-black font-semibold hover:bg-gray-200 transition"
-            >
-              Notify Me
-            </button>
-          </form>
+          <EmailForm />
         </div>
 
       <p className="text-base sm:text-lg leading-relaxed pt-4">See you at your porar table haha,</p>
